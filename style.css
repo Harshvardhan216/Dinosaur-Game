@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+.gameContainer{
+    background-image: url(BG.JPEG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.dino{
+    background-image: url(dino\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 235px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+
+}
