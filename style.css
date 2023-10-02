@@ -5,6 +5,7 @@
 
 body{
     background-color: aqua;
+    overflow: hidden;
 }
 .gameContainer{
     background-image: url(BG.JPEG.jpg);
@@ -23,6 +24,50 @@ body{
     height: 120px;
     position: absolute;
     bottom: 0;
-    left: 12px;
+    left: 52px;
 
+}
+
+.obstacle{
+    width: 150px;
+    height: 124px;
+    background-image: url();
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 44vw;
+    
+
+}
+
+.animateDino{
+    animation: dino 0.6s linear;
+}
+
+.obstacleAni{
+    animation: obstacleAni 5s linear infinite;
+}
+
+@keyframes dino {
+    0%{
+
+        bottom: 0;
+    }
+    50%{
+        bottom: 422px;
+    }
+    100%{
+        bottom: 0;
+    }
+    
+}
+
+@keyframes obstacle {
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+    
 }
